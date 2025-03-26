@@ -103,5 +103,7 @@ def loadAndVectorizeLocalBlobDataToMongoDBCluster(client, data_folder,cosmos_db_
                     index_list = [
                                     ("salesOrderDetailVectorSearchIndex", "salesOrderDetailVector")
                                 ]
-                    Indexes.createVectorIndexes(collection, index_list, db, collection_name)
+                    Indexes.createVectorIndexes(collec
+                                                
+                                                tion, index_list, db, collection_name)
                  # Replace this line with the lab's code
